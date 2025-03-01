@@ -71,9 +71,9 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Hoshino_Xbot?start=Z2V0LTE2NjM4
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 #Channel & Group link 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+PmTvSWqzwo40Mzc1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/EmitingStars_Botz')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/RexySama')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+dUNhZAZ9KiNjMWZh')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+kMg7oo9LDqBjZTBl')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/jawandealer')
 MOVIE_UPDATE_CHANNEL_LNK = environ.get('DEENDAYAL_MOVIE_UPDATE_CHANNEL_LNK', 'https://t.me/EmitingStars_Botz')
 
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
