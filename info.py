@@ -36,13 +36,13 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002467301880')) #Log channel id 
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002382820431')) #Notification of those who verify will be sent to your channel. Enter the ID of the channel you want to send notification to here.
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002467301880')) # add premium logs channel id
 auth_channel = environ.get('AUTH_CHANNEL', '-1002382820431') #Channel / Group Id for force sub ( make sure bot is admin )
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002467301880').split()]
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1007185229231') # support group id ( make sure bot is admin )
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002467301880') # request channel id ( make sure bot is admin ).
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://animevintage123:animevintage@cluster0.w7gsx.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://alisabotelegram:alisabotelegram@cluster0.2u6mg.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "RexySama's")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
